@@ -54,7 +54,40 @@ table       => جدول
 
 
 -->
-
+<div>
+    <input type="radio" id="windows" name="os2" value="Windows">
+    <label for="windows">Windows</label>
+  </div>
+  <div>
+    <input type="radio" id="linux" name="os2" value="Linux">
+    <label for="linux">Linux</label>
+  </div>
+  <div>
+    <input type="radio" id="mac" name="os2" value="Mac">
+    <label for="mac">Mac</label>
+  </div>
+  <div>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Save">
+  </div>
+  
+<div>
+    <input type="checkbox" id="windows1" name="os" value="Windows">
+    <label for="windows1">Windows</label>
+  </div>
+  <div>
+    <input type="checkbox" id="linux1" name="os" value="Linux">
+    <label for="linux1">Linux</label>
+  </div>
+  <div>
+    <input type="checkbox" id="mac1" name="os" value="Mac">
+    <label for="mac1">Mac</label>
+  </div>
+  <div>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Save">
+  </div>
+  
 <title>Styled Table</title>
 <style>
     body {
@@ -178,12 +211,12 @@ js
    <form>
     <div>
          <Label>EMAIL</Label>
-        <input type="email" required placeholder="EMAIL" name="user">
+        <input type="email" required placeholder="EMAIL" name="user" autofocus>
 </div>
 <br>
    <div>
     <label>password</label>
-    <input type="password"  required placeholder="password" name="password">
+    <input type="password"  required placeholder="password" name="password" minlength="10" maxlength="10">
     <input type="color" name="color">
     <input type="range" name=" range" min="0" max="100" step="1 " value="0">
     <input type="number" name="number"  min="10" max="1000" value="50" step="5">
@@ -227,7 +260,7 @@ js
     </video>
 </ul>
 <sup>a</sup><sub>bo</sub><sup>d</sup><link rel="stylesheet" href="index.html"></p>
-<a href="https://www.youtube.com/watch?v=qfPUMV9J5yw&t=3939s" target="_blank">youtube</a>
+<a href="https://www.youtube.com/watch?v=qfPUMV9J5yw&t=3939s" target="_blank" >youtube</a>
 <a href="https://www.youtube.com/watch?v=qfPUMV9J5yw&t=3939s" target="_blank" ><u><i>abod</i></u></a>
  <a href="#abod" title="go youtube">1 2 3</a>
  <a href="mailto:abdslmslk2008123@gmail.com">gmail</a>
@@ -239,6 +272,43 @@ js
    <a href="https://wa.me/+962786511780"></a>
    <audio src=""></audio>
 <video src="vudo.mp4"></video>
- -->
+ --> 
+ <label for="book">choose books</label>
+ <select name="books" id="books">
+ <optgroup label="books 1 ">
+ 
+<option value="1">book 1</option>
+<option value="2">book 2</option>
+<option value="3">book 3</option>
+<option value="4">book 4</option>
+</optgroup>
+    <optgroup>
+     
+        <optgroup label="books 2 ">
+<option value="5" selected> book 5</option>
+<option value="6">book 6</option>
+<option value="7">book 7</option>
+<option value="8">book 8</option>
+</optgroup>
+
+ </select>
+ <hr>
+ <textarea name="" cols="30" rows="10" placeholder="test text"></textarea>
+ <div>
+    <label> upload </label>
+    <input type="file">
+ </div>
+ <div>
+    <label> search </label>
+    <input type="search">
+ </div>
+ <div>
+    <label>url</label>
+    <input type="url">
+ </div>
+ <div>
+    <label><data value="10"></data></label>
+    <input type="date">
+ </div>
 </body>
 </html>
