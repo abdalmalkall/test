@@ -1,0 +1,18 @@
+selector {
+  property: value;
+}
+.abod {
+  /* background-color: rgba(114, 89, 25, 0.63); */
+  background-repeat: no-repeat;
+  background-image: url(../bmw-5-series-sedan-front-side-2-313490.jpg);
+  color: gold;
+  font-size: 80px;
+}
+.box1 {
+  color: rgb(108, 83, 15);
+  font-size: 200px;
+}
+.box {
+  color: rgb(108, 100, 10);
+  font-size: 60px;
+}
